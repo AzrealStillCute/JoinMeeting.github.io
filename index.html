@@ -91,7 +91,7 @@
     <div id="schedule"><img src="icon.png"><span>None</span></div>
     <div id="container">
       <span>!</span>
-      <input type="text" id="inputBox" placeholder="Blah Blah" />
+      <input type="text" id="inputBox" placeholder="Subject" />
       <button onclick="action()">Go</button>
     </div>
   </body>
@@ -132,9 +132,9 @@
       } else if (date==3) {
         conditions("Myanmar", "None", "None", "Bio")
       } else if (date==4) {
-        conditions("Chemistry", "Maths", "None", "Social")
+        conditions("Chemistry", "None", "Maths", "Social")
       } else if (date == 5) { 
-        conditions("Myanmar", "English", "Maths", "None", )
+        conditions("Maths", "None", "Chemistry", "Social")
       } else {
         span.textContent = "None"
       }
